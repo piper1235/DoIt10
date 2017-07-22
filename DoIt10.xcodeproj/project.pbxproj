@@ -8,24 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		D3AB3DD11F23F5D100224074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB3DD01F23F5D100224074 /* AppDelegate.swift */; };
-		D3AB3DD31F23F5D100224074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB3DD21F23F5D100224074 /* ViewController.swift */; };
+		D3AB3DD31F23F5D100224074 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB3DD21F23F5D100224074 /* TasksViewController.swift */; };
 		D3AB3DD61F23F5D100224074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AB3DD41F23F5D100224074 /* Main.storyboard */; };
 		D3AB3DD91F23F5D100224074 /* DoIt10.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3AB3DD71F23F5D100224074 /* DoIt10.xcdatamodeld */; };
 		D3AB3DDB1F23F5D100224074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3AB3DDA1F23F5D100224074 /* Assets.xcassets */; };
 		D3AB3DDE1F23F5D100224074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AB3DDC1F23F5D100224074 /* LaunchScreen.storyboard */; };
 		D3AB3DE61F23FA5500224074 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB3DE51F23FA5500224074 /* Task.swift */; };
+		D3AB3DE81F24058D00224074 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB3DE71F24058D00224074 /* CreateTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D3AB3DCD1F23F5D000224074 /* DoIt10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoIt10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AB3DD01F23F5D100224074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3AB3DD21F23F5D100224074 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3AB3DD21F23F5D100224074 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		D3AB3DD51F23F5D100224074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3AB3DD81F23F5D100224074 /* DoIt10.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoIt10.xcdatamodel; sourceTree = "<group>"; };
 		D3AB3DDA1F23F5D100224074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3AB3DDD1F23F5D100224074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3AB3DDF1F23F5D100224074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3AB3DE51F23FA5500224074 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D3AB3DE71F24058D00224074 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				D3AB3DD01F23F5D100224074 /* AppDelegate.swift */,
-				D3AB3DD21F23F5D100224074 /* ViewController.swift */,
+				D3AB3DD21F23F5D100224074 /* TasksViewController.swift */,
+				D3AB3DE71F24058D00224074 /* CreateTaskViewController.swift */,
 				D3AB3DE51F23FA5500224074 /* Task.swift */,
 				D3AB3DD41F23F5D100224074 /* Main.storyboard */,
 				D3AB3DDA1F23F5D100224074 /* Assets.xcassets */,
@@ -142,9 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3AB3DE61F23FA5500224074 /* Task.swift in Sources */,
-				D3AB3DD31F23F5D100224074 /* ViewController.swift in Sources */,
+				D3AB3DD31F23F5D100224074 /* TasksViewController.swift in Sources */,
 				D3AB3DD91F23F5D100224074 /* DoIt10.xcdatamodeld in Sources */,
 				D3AB3DD11F23F5D100224074 /* AppDelegate.swift in Sources */,
+				D3AB3DE81F24058D00224074 /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
