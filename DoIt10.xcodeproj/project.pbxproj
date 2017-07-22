@@ -15,6 +15,7 @@
 		D3AB3DDE1F23F5D100224074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AB3DDC1F23F5D100224074 /* LaunchScreen.storyboard */; };
 		D3AB3DE61F23FA5500224074 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB3DE51F23FA5500224074 /* Task.swift */; };
 		D3AB3DE81F24058D00224074 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB3DE71F24058D00224074 /* CreateTaskViewController.swift */; };
+		D3AB3DEA1F24115D00224074 /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB3DE91F24115D00224074 /* CompleteTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D3AB3DDF1F23F5D100224074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3AB3DE51F23FA5500224074 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		D3AB3DE71F24058D00224074 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		D3AB3DE91F24115D00224074 /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				D3AB3DD01F23F5D100224074 /* AppDelegate.swift */,
 				D3AB3DD21F23F5D100224074 /* TasksViewController.swift */,
+				D3AB3DE91F24115D00224074 /* CompleteTaskViewController.swift */,
 				D3AB3DE71F24058D00224074 /* CreateTaskViewController.swift */,
 				D3AB3DE51F23FA5500224074 /* Task.swift */,
 				D3AB3DD41F23F5D100224074 /* Main.storyboard */,
@@ -146,6 +149,7 @@
 			files = (
 				D3AB3DE61F23FA5500224074 /* Task.swift in Sources */,
 				D3AB3DD31F23F5D100224074 /* TasksViewController.swift in Sources */,
+				D3AB3DEA1F24115D00224074 /* CompleteTaskViewController.swift in Sources */,
 				D3AB3DD91F23F5D100224074 /* DoIt10.xcdatamodeld in Sources */,
 				D3AB3DD11F23F5D100224074 /* AppDelegate.swift in Sources */,
 				D3AB3DE81F24058D00224074 /* CreateTaskViewController.swift in Sources */,
